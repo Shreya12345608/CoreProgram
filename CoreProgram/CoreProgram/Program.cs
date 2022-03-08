@@ -9,6 +9,10 @@ namespace CoreProgram
             Console.WriteLine("Hello World!");
             PerfectNumber perfect = new PerfectNumber();
             perfect.CheckPerfectNumber();
+
+            //Fibonacci Series
+            FibonacciSeries fibonacciSeries = new FibonacciSeries();
+            fibonacciSeries.CheckFibonacciSeries();
         }
     }
 }
